@@ -119,4 +119,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = '/home/riisa/static'
+STATIC_ROOT = '/home/riisa/trpgWeb/static'
