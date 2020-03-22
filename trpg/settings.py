@@ -23,8 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '7bi(t#^(op=y#pkfpq5k5$qifmbghp5(p-96+eqkpmt##36fkj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-#DEBUG = False
+#DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["127.0.0.1", "riisa.pythonanywhere.com"]
 
