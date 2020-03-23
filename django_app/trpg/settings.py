@@ -14,7 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_DIR = BASE_DIR+"\\..\\dist\\templates\\"
+TEMPLATE_DIR = BASE_DIR+"/../dist/templates/"
 
 #STATIC_PATH = ""
 
