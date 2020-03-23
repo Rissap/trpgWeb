@@ -1,18 +1,36 @@
 - var telegram = "https://t.me/riisabot"
+- var font_main = "https://fonts.googleapis.com/css?family=Gabriela&display=swap"
+- var font_base = "https://fonts.googleapis.com/css?family=Lato&display=swap"
 
 doctype html
 html
 	head
 		title Raumor TRPG
+
+		meta(charset="utf-8")
 		link(rel="stylesheet" type="text\css" href="../static/css/default.css")
 		link(rel="stylesheet" type="text\css" href="../static/css/main.css")
-		meta(charset="utf-8")
+		link(rel="stylesheet" href=font_main)
+		link(rel="stylesheet" href=font_base)
 
 	body
 		.grid
 			header.header
 				.logo
 					img(src="../static/img/logo.png")
+
+				.nav
+					ul.nav_list
+						a(href="").nav_link
+							li.nav_item Первые шаги
+						a(href="").nav_link
+							li.nav_item Карта
+						a(href="").nav_link
+							li.nav_item Объекты
+						a(href="").nav_link
+							li.nav_item Форум
+						a(href="").nav_link
+							li.nav_login Логин
 
 			.content
 				a(href=telegram)
